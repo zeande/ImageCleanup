@@ -1,8 +1,8 @@
 <#
 .SYNOPSIS
-This script compresses (downscales) images in the specified directory.
+This script creates compressed (downscaled) copies of the images in the specified directory.
 
-.PARAMETER direcotryPath
+.PARAMETER directoryPath
 Specifies the path to the directory containing the images to compress.
 
 .PARAMETER maxDimension
