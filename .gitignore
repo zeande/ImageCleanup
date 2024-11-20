@@ -1,0 +1,8 @@
+# Ignore image files that might be in the folder during testing
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.bmp
+*.tiff
+*.svg
