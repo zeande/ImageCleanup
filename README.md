@@ -5,7 +5,7 @@
 ImageCleanup is a collection of scripts designed to help organize and clean up your photo collection. Over the years,
 many of us have accumulated a large number of photos stored across various cloud services. This project aims to
 streamline the process of managing these photos by downscaling large images and removing duplicates. After using the
-scripts in this repository, you will be ready to import your photos into the cloud service of your choice. 
+scripts in this repository, you will be ready to import your photos into the cloud service of your choice. with a much smaller footprint than taking them over as-is. 
 
 ## Features
 
@@ -38,7 +38,7 @@ scripts in this repository, you will be ready to import your photos into the clo
 ### Usage
 
 #### Compress-Images
-This script downscales images in a specified directory.
+This script creates downscaled copies of the images in a specified directory.
 
 ```
 .\scripts\Compress-Images.ps1 -directoryPath "C:\path\to\images" -maxDimension 1024
