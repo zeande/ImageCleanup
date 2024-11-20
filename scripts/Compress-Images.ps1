@@ -1,3 +1,20 @@
+<#
+.SYNOPSIS
+This script compresses (downscales) images in the specified directory.
+
+.PARAMETER direcotryPath
+Specifies the path to the directory containing the images to compress.
+
+.PARAMETER maxDimension
+Specifies the maximum dimension (width or height) for the compressed images. Default is 2048.
+
+.PARAMETER fileExtensions
+Specifies the file extensions to include in the compression process. Default is ".jpg" and ".png".
+
+.EXAMPLE
+.\Compress-Images.ps1 -directoryPath "~/Downloads/Images" -maxDimension 1024 -fileExtensions @(".jpg")
+This example compresses all JPEG images in the "~/Downloads/Images" directory to a maximum dimension of 1024 pixels.
+#>
 param (
     [Parameter(Mandatory = $true)]
     [string] $directoryPath,
